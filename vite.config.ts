@@ -29,7 +29,7 @@ export default defineConfig({
           },
         ],
         theme_color: "#030712",
-        background_color: "#ffffff",
+        background_color: "#030712",
         display: "standalone",
       },
     }),
