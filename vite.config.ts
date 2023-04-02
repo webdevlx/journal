@@ -9,8 +9,6 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-      srcDir: "src",
-      filename: "sw.ts",
       registerType: "autoUpdate",
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
